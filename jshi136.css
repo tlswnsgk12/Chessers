@@ -1,0 +1,253 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink {
+  background-color: #815854;
+  color: #f9ebde;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  width: 14.28%;
+  height: 100px;
+}
+
+.tablink:hover {
+  background-color: #b1624e;
+}
+
+.tabcontent {
+  color: #815854;
+  display: none;
+  padding: 110px 20px;
+  height: 100%;
+}
+
+.textboxes {
+  display: table;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.textbox {
+  padding: 5px;
+}
+
+.productimg {
+  margin-bottom: 30px;
+}
+
+.productname {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.productprice {
+  font-weight: bold;
+}
+
+.purchasebut {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #815854;
+}
+
+.purchasebut:hover {
+  background-color: #815854;
+  color: white;
+}
+
+.white {
+  width: 40px;
+  height: 40px;
+  background-color: #ffdfde;
+  border: 2px solid #6a7ba2;
+  text-align: center;
+}
+
+.black {
+  width: 40px;
+  height: 40px;
+  background-color: #6a7ba2;
+  border: 2px solid #ffdfde;
+  text-align: center;
+}
+
+.grey {
+  width: 40px;
+  height: 40px;
+  background-color: #f9ebde;
+  border: 2px solid #815854;
+  color: #815854;
+  text-align: center;
+}
+
+.purchasebut {
+  margin-bottom: 60px;
+  border-bottom: 1px thick black;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #815854;
+}
+
+.button1:hover {
+  background-color: #815854;
+  color: white;
+}
+
+.chessbutton {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 4px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #815854;
+}
+
+.chessbutton:hover {
+  background-color: #815854;
+  color: white;
+}
+
+#Home {
+  background-color: #f9ebde;
+  height: 85.72%;
+}
+#AcademyShop {
+  background-color: #f9ebde;
+}
+#UserRegistration {
+  background-color: #f9ebde;
+}
+#UserLogin {
+  background-color: #f9ebde;
+}
+#GameOfChess {
+  background-color: #f9ebde;
+}
+#GuestBook {
+  background-color: #f9ebde;
+}
+#logo {
+  width: 60%;
+  height: 60%;
+}
+#myInput {
+  margin-bottom: 50px;
+}
+#showingid {
+  font-size: 17px;
+  margin-bottom: -15px;
+}
+#lo {
+  font-size: 17px;
+}
+#comment {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 40%;
+  font-size: 16px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#commentname {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 40%;
+  font-size: 16px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#productsearch {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 270px;
+  font-size: 16px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+@media (max-width: 450px) {
+  #showingid {
+    font-size: 14px;
+    margin-bottom: -10px;
+  }
+  #lo {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .tabcontent {
+    color: #815854;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  #coms {
+    width: 300px;
+    height: 300px;
+  }
+  #comment {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 60%;
+    font-size: 14px;
+    padding: 12px 20px 12px 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  #commentname {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 60%;
+    font-size: 14px;
+    padding: 12px 20px 12px 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+}
